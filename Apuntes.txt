@@ -1,0 +1,29 @@
+Menu elementos
+    - Icono de un menu (menu desplegable)
+        - Inicio
+        - Aula Virtual
+        - Quienes somos
+            - nosotros
+                - Vision
+                - Mision
+                - Marco Juridico
+                - Estructura organizacional 
+            - Socio
+            - Talento humano
+            - Marco estrategico 
+        - Catalogo
+        - Nuestros servicios
+        - Comite
+        - Interactua con nosotros 
+            - Preguntas frecuentes
+            - Buzon
+            - Haz tu consulta
+        - Atributo 
+            - Map de sitio web
+        - EnLaNube
+    - 
+    - Ubicacion
+    - Telefono
+
+
+Portada elementos

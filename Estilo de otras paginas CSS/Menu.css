@@ -1,0 +1,211 @@
+:root{
+    --azul: #88CEF0;
+    --rojo: #DB4736;
+    --gris: #949699; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PLUTO SANS', sans-serif;
+}
+
+
+body{
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+}
+
+
+/* Estilizacion de la barra de navegacion */
+.navegacion{
+    width: 100%;
+    height: auto;
+    top:0;
+    position: fixed;
+    background: var(--azul);
+    box-shadow: 0 5px 20px var(--gris);
+}
+
+/* Parte 1 */
+.logo-dire-tel{
+    width: 100%;
+    height: 15vh;
+    padding: 10px;
+    gap: 5px;
+    display: flex;
+    flex-direction: row wrap;
+    border-bottom: 3px solid var(--rojo);
+}
+
+.logo{
+    flex-basis: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.dire-tel{
+    flex-basis: 90%;
+    height: 100%;
+    gap: 10px;
+    padding: 10px;
+    display: flex;
+    align-items:end;
+    flex-flow: column;
+
+}
+
+.dire-tel ion-icon{
+    color: var(--rojo);
+
+}
+
+.direccion{
+    flex-basis: auto;
+    gap: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: right;
+    color: white;
+    transition: all 0.5s;
+
+}
+
+.direccion a{
+    font-size: 19px;
+    font-style: italic;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.telefono{
+    flex-basis: 30%;
+    gap: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    transition: all 0.5s;
+
+}
+
+.telefono div{
+    font-size: 19px;
+    font-style: italic;
+    color: white;
+    cursor:default;
+}
+
+.direccion:hover, .telefono:hover{
+    text-shadow: 1px 1px 1px black;
+}
+
+/* .redes{
+    flex-basis: 30%;
+    height: 100%;
+    font-size: 25px;
+    gap: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;    
+    flex-direction: row;
+
+}
+
+.redes a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+
+}
+
+.redes ion-icon{
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.redes a:hover{
+    transform: translateY(-25%);
+} */
+
+/*Fin de la parte 1 */
+
+
+/* Parte 2 */
+.menu{
+    width: 100%;
+    height: 10vh;
+    padding: 10px;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: row wrap;
+    background: white;
+
+}
+
+/* .mboton{
+    height: 100%;
+    flex-basis: auto;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--gris);
+} */
+
+.opciones{
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+
+}
+
+.enlaces{
+    width: 20%;
+    height: 100%;
+    font-size: 15.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+
+}
+
+
+.enlaces::after{
+    content: "";
+    width: 9.5%;
+    height: 5%;
+    bottom: 2%;
+    border-radius: 5px;
+    position: absolute;
+    background: var(--azul);
+    transition: all 0.5s ease;
+    transform: scaleX(0);
+    
+}
+
+.enlaces:hover::after{
+    transform: scaleX(1);
+}

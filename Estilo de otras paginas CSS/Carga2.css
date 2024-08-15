@@ -1,0 +1,41 @@
+
+
+.cargado{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.puerta1{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background: white;
+
+}
+
+.puerta2{
+    right: 0;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background: white;
+
+}
+
+@keyframes pt1{
+    0% {transform: translateX(0%);}
+
+    100% {transform: translateX(-100%);}
+
+}
+
+@keyframes pt2{
+    0% {transform: translateX(0%);}
+
+    100% {transform: translateX(100%);}
+
+}
